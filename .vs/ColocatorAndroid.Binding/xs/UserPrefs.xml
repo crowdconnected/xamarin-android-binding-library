@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{3130CB6A-386D-4193-9AFC-9D7E1BE61BB1}|Default">
+  <MonoDevelop.Ide.ItemProperties.ColocatorAndroid.Binding PreferredExecutionTarget="Android.Pixel_XL_API_29" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ColocatorAndroid.Binding/obj/Debug/generated/src/Net.Crowdconnected.Androidcolocator.Observer.Wifi.WifiRangingResultCallback.cs">
+    <Files>
+      <File FileName="ColocatorAndroid.Binding/obj/Debug/generated/src/Net.Crowdconnected.Androidcolocator.Observer.Wifi.WifiRangingResultCallback.cs" Line="183" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ColocatorAndroid.Binding" expanded="True">
+            <Node name="ColocatorAndroid.Binding" expanded="True">
+              <Node name="References" expanded="True" selected="True" />
+              <Node name="Additions" expanded="True" />
+              <Node name="Jars" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Transforms" expanded="True" />
+            </Node>
+            <Node name="TrueTime.Binding" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

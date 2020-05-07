@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColocatorAndroid.Binding", "ColocatorAndroid.Binding\ColocatorAndroid.Binding.csproj", "{3130CB6A-386D-4193-9AFC-9D7E1BE61BB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueTime.Binding", "..\TrueTime.Binding\TrueTime.Binding\TrueTime.Binding.csproj", "{EC8EA2B5-5D91-43ED-B71D-5E1C2F2F668B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3130CB6A-386D-4193-9AFC-9D7E1BE61BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3130CB6A-386D-4193-9AFC-9D7E1BE61BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3130CB6A-386D-4193-9AFC-9D7E1BE61BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3130CB6A-386D-4193-9AFC-9D7E1BE61BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8EA2B5-5D91-43ED-B71D-5E1C2F2F668B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8EA2B5-5D91-43ED-B71D-5E1C2F2F668B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8EA2B5-5D91-43ED-B71D-5E1C2F2F668B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8EA2B5-5D91-43ED-B71D-5E1C2F2F668B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
