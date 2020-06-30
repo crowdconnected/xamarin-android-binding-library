@@ -109,6 +109,26 @@ namespace Net.Crowdconnected.Androidcolocator.Connector {
 				}
 			}
 		}
+
+
+		// Metadata.xml XPath field reference: path="/api/package[@name='net.crowdconnected.androidcolocator.connector']/class[@name='LocationResponse']/field[@name='f']"
+		[Register ("f")]
+		public long F {
+			get {
+				const string __id = "f.J";
+
+				var __v = _members.InstanceFields.GetInt64Value (__id, this);
+				return __v;
+			}
+			set {
+				const string __id = "f.J";
+
+				try {
+					_members.InstanceFields.SetValue (__id, this, value);
+				} finally {
+				}
+			}
+		}
 		static readonly JniPeerMembers _members = new XAPeerMembers ("net/crowdconnected/androidcolocator/connector/LocationResponse", typeof (LocationResponse));
 		internal static new IntPtr class_ref {
 			get {
@@ -130,23 +150,24 @@ namespace Net.Crowdconnected.Androidcolocator.Connector {
 
 		internal LocationResponse (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
 
-		// Metadata.xml XPath constructor reference: path="/api/package[@name='net.crowdconnected.androidcolocator.connector']/class[@name='LocationResponse']/constructor[@name='LocationResponse' and count(parameter)=5 and parameter[1][@type='double'] and parameter[2][@type='double'] and parameter[3][@type='double'] and parameter[4][@type='double'] and parameter[5][@type='long']]"
-		[Register (".ctor", "(DDDDJ)V", "")]
-		public unsafe LocationResponse (double p0, double p1, double p2, double p3, long p4)
+		// Metadata.xml XPath constructor reference: path="/api/package[@name='net.crowdconnected.androidcolocator.connector']/class[@name='LocationResponse']/constructor[@name='LocationResponse' and count(parameter)=6 and parameter[1][@type='double'] and parameter[2][@type='double'] and parameter[3][@type='double'] and parameter[4][@type='double'] and parameter[5][@type='long'] and parameter[6][@type='long']]"
+		[Register (".ctor", "(DDDDJJ)V", "")]
+		public unsafe LocationResponse (double p0, double p1, double p2, double p3, long p4, long p5)
 			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
 		{
-			const string __id = "(DDDDJ)V";
+			const string __id = "(DDDDJJ)V";
 
 			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
 				return;
 
 			try {
-				JniArgumentValue* __args = stackalloc JniArgumentValue [5];
+				JniArgumentValue* __args = stackalloc JniArgumentValue [6];
 				__args [0] = new JniArgumentValue (p0);
 				__args [1] = new JniArgumentValue (p1);
 				__args [2] = new JniArgumentValue (p2);
 				__args [3] = new JniArgumentValue (p3);
 				__args [4] = new JniArgumentValue (p4);
+				__args [5] = new JniArgumentValue (p5);
 				var __r = _members.InstanceMethods.StartCreateInstance (__id, ((object) this).GetType (), __args);
 				SetHandle (__r.Handle, JniHandleOwnership.TransferLocalRef);
 				_members.InstanceMethods.FinishCreateInstance (__id, this, __args);
@@ -161,6 +182,19 @@ namespace Net.Crowdconnected.Androidcolocator.Connector {
 				const string __id = "getError.()D";
 				try {
 					var __rm = _members.InstanceMethods.InvokeAbstractDoubleMethod (__id, this, null);
+					return __rm;
+				} finally {
+				}
+			}
+		}
+
+		public unsafe long Floor {
+			// Metadata.xml XPath method reference: path="/api/package[@name='net.crowdconnected.androidcolocator.connector']/class[@name='LocationResponse']/method[@name='getFloor' and count(parameter)=0]"
+			[Register ("getFloor", "()J", "")]
+			get {
+				const string __id = "getFloor.()J";
+				try {
+					var __rm = _members.InstanceMethods.InvokeAbstractInt64Method (__id, this, null);
 					return __rm;
 				} finally {
 				}

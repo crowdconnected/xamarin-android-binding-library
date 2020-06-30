@@ -2,18 +2,16 @@
   <MonoDevelop.Ide.ItemProperties.ColocatorAndroid.Binding PreferredExecutionTarget="Android.Pixel_XL_API_29" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ColocatorAndroid.Binding/obj/Debug/generated/src/Net.Crowdconnected.Androidcolocator.Observer.Wifi.WifiRangingResultCallback.cs">
     <Files>
-      <File FileName="ColocatorAndroid.Binding/obj/Debug/generated/src/Net.Crowdconnected.Androidcolocator.Observer.Wifi.WifiRangingResultCallback.cs" Line="183" Column="4" />
+      <File FileName="ColocatorAndroid.Binding/obj/Debug/generated/src/Net.Crowdconnected.Androidcolocator.Observer.Wifi.WifiRangingResultCallback.cs" Line="168" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ColocatorAndroid.Binding" expanded="True">
             <Node name="ColocatorAndroid.Binding" expanded="True">
-              <Node name="References" expanded="True" selected="True" />
-              <Node name="Additions" expanded="True" />
-              <Node name="Jars" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Transforms" expanded="True" />
+              <Node name="References" expanded="True" />
+              <Node name="Packages" expanded="True" />
+              <Node name="colocator-2.7.0.aar" selected="True" />
             </Node>
             <Node name="TrueTime.Binding" expanded="True" />
           </Node>

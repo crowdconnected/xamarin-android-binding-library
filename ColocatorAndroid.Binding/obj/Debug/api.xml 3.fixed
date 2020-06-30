@@ -1,0 +1,1036 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api>
+  <package name="a.a.a.a" jni-name="a/a/a/a">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="La/a/a/a/a;">
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;)V" bridge="false" static="false" type="a.a.a.a.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="Ljava/lang/Boolean;" static="false" transient="false" type="java.lang.Boolean" type-generic-aware="java.lang.Boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="Ljava/lang/Boolean;" static="false" transient="false" type="java.lang.Boolean" type-generic-aware="java.lang.Boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="Ljava/lang/Boolean;" static="false" transient="false" type="java.lang.Boolean" type-generic-aware="java.lang.Boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="Ljava/lang/Boolean;" static="false" transient="false" type="java.lang.Boolean" type-generic-aware="java.lang.Boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="f" jni-signature="Ljava/lang/Boolean;" static="false" transient="false" type="java.lang.Boolean" type-generic-aware="java.lang.Boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="g" jni-signature="Ljava/lang/Boolean;" static="false" transient="false" type="java.lang.Boolean" type-generic-aware="java.lang.Boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="h" jni-signature="Ljava/lang/Boolean;" static="false" transient="false" type="java.lang.Boolean" type-generic-aware="java.lang.Boolean" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b" static="false" visibility="public" jni-signature="La/a/a/a/b;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(La/a/a/e/c;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.e.c" jni-type="La/a/a/e/c;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(La/a/a/e/c;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.e.c" jni-type="La/a/a/e/c;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="java.lang.Exception" jni-type="Ljava/lang/Exception;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/net/Uri;Ljava/util/UUID;Landroid/content/Context;)Ljava/net/URI;" bridge="false" native="false" return="java.net.URI" jni-return="Ljava/net/URI;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.net.Uri" jni-type="Landroid/net/Uri;"></parameter>
+        <parameter name="p1" type="java.util.UUID" jni-type="Ljava/util/UUID;"></parameter>
+        <parameter name="p2" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c" static="false" visibility="public" jni-signature="La/a/a/a/c;">
+      <constructor deprecated="not deprecated" final="false" name="c" jni-signature="(Landroid/content/Context;Landroid/os/Handler;)V" bridge="false" static="false" type="a.a.a.a.c" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="android.os.Handler" jni-type="Landroid/os/Handler;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/os/Message;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Message" jni-type="Landroid/os/Message;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="([Landroid/os/Message;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Message[]" jni-type="[Landroid/os/Message;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="([B)Landroid/os/Message;" bridge="false" native="false" return="android.os.Message" jni-return="Landroid/os/Message;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="byte[]" jni-type="[B"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/util/List;Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;java.lang.Integer&gt;" jni-type="Ljava/util/List&lt;Ljava/lang/Integer;&gt;;"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Ljava/util/Map;" bridge="false" native="false" return="java.util.Map&lt;java.lang.Integer, android.os.Message&gt;" jni-return="Ljava/util/Map&lt;Ljava/lang/Integer;Landroid/os/Message;&gt;;" static="false" synchronized="true" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="d" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="Landroid/os/Handler;" static="false" transient="false" type="android.os.Handler" type-generic-aware="android.os.Handler" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="Landroid/database/sqlite/SQLiteDatabase;" static="false" transient="false" type="android.database.sqlite.SQLiteDatabase" type-generic-aware="android.database.sqlite.SQLiteDatabase" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="f" jni-signature="Ljava/util/concurrent/atomic/AtomicInteger;" static="false" transient="false" type="java.util.concurrent.atomic.AtomicInteger" type-generic-aware="java.util.concurrent.atomic.AtomicInteger" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="g" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="h" jni-signature="Ljava/util/List;" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List&lt;android.os.Message&gt;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="i" jni-signature="Ljava/util/Timer;" static="false" transient="false" type="java.util.Timer" type-generic-aware="java.util.Timer" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="j" jni-signature="Ljava/util/TimerTask;" static="false" transient="false" type="java.util.TimerTask" type-generic-aware="java.util.TimerTask" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="k" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="l" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="m" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="n" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="o" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="p" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="q" jni-signature="Ljava/util/Timer;" static="false" transient="false" type="java.util.Timer" type-generic-aware="java.util.Timer" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="r" jni-signature="Ljava/util/TimerTask;" static="false" transient="false" type="java.util.TimerTask" type-generic-aware="java.util.TimerTask" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.util.TimerTask" extends-generic-aware="java.util.TimerTask" jni-extends="Ljava/util/TimerTask;" final="false" name="c.a" static="false" visibility="public" jni-signature="La/a/a/a/c$a;">
+      <constructor deprecated="not deprecated" final="false" name="c.a" jni-signature="(La/a/a/a/c;)V" bridge="false" static="false" type="a.a.a.a.c.a" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/c;" static="false" transient="false" type="a.a.a.a.c" type-generic-aware="a.a.a.a.c" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.util.TimerTask" extends-generic-aware="java.util.TimerTask" jni-extends="Ljava/util/TimerTask;" final="false" name="c.b" static="false" visibility="public" jni-signature="La/a/a/a/c$b;">
+      <constructor deprecated="not deprecated" final="false" name="c.b" jni-signature="(La/a/a/a/c;)V" bridge="false" static="false" type="a.a.a.a.c.b" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/c;" static="false" transient="false" type="a.a.a.a.c" type-generic-aware="a.a.a.a.c" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.util.TimerTask" extends-generic-aware="java.util.TimerTask" jni-extends="Ljava/util/TimerTask;" final="false" name="d" static="false" visibility="public" jni-signature="La/a/a/a/d;">
+      <constructor deprecated="not deprecated" final="false" name="d" jni-signature="(La/a/a/a/c;)V" bridge="false" static="false" type="a.a.a.a.d" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.a.c" jni-type="La/a/a/a/c;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/c;" static="false" transient="false" type="a.a.a.a.c" type-generic-aware="a.a.a.a.c" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="e" static="false" visibility="public" jni-signature="La/a/a/a/e;">
+      <constructor deprecated="not deprecated" final="false" name="e" jni-signature="(La/a/a/a/f;Landroid/content/Context;)V" bridge="false" static="false" type="a.a.a.a.e" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.a.f" jni-type="La/a/a/a/f;"></parameter>
+        <parameter name="p1" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="Landroid/app/AlarmManager;" static="false" transient="false" type="android.app.AlarmManager" type-generic-aware="android.app.AlarmManager" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="La/a/a/a/e$b;" static="false" transient="false" type="a.a.a.a.e.b" type-generic-aware="a.a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="e" jni-signature="Landroid/os/Handler;" static="false" transient="false" type="android.os.Handler" type-generic-aware="android.os.Handler" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="f" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="g" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="h" jni-signature="Ljava/lang/Long;" static="false" transient="false" type="java.lang.Long" type-generic-aware="java.lang.Long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="i" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="e.a" static="false" visibility="public" jni-signature="La/a/a/a/e$a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="e.a" jni-signature="(La/a/a/a/e;)V" bridge="false" static="false" type="a.a.a.a.e.a" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/e;" static="false" transient="false" type="a.a.a.a.e" type-generic-aware="a.a.a.a.e" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.content.BroadcastReceiver" extends-generic-aware="android.content.BroadcastReceiver" jni-extends="Landroid/content/BroadcastReceiver;" final="false" name="e.b" static="false" visibility="public" jni-signature="La/a/a/a/e$b;">
+      <constructor deprecated="not deprecated" final="false" name="e.b" jni-signature="(La/a/a/a/e;La/a/a/a/e$a;)V" bridge="false" static="false" type="a.a.a.a.e.b" synthetic="true" visibility="public">
+        <parameter name="p0" type="a.a.a.a.e.a" jni-type="La/a/a/a/e$a;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onReceive" jni-signature="(Landroid/content/Context;Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="android.content.Intent" jni-type="Landroid/content/Intent;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/e;" static="false" transient="false" type="a.a.a.a.e" type-generic-aware="a.a.a.a.e" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="e.b.a" static="false" visibility="public" jni-signature="La/a/a/a/e$b$a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="e.b.a" jni-signature="(La/a/a/a/e$b;)V" bridge="false" static="false" type="a.a.a.a.e.b.a" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/e$b;" static="false" transient="false" type="a.a.a.a.e.b" type-generic-aware="a.a.a.a.e.b" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.os.HandlerThread" extends-generic-aware="android.os.HandlerThread" jni-extends="Landroid/os/HandlerThread;" final="false" name="f" static="false" visibility="public" jni-signature="La/a/a/a/f;">
+      <constructor deprecated="not deprecated" final="false" name="f" jni-signature="(Landroid/content/Context;Landroid/app/Service;)V" bridge="false" static="false" type="a.a.a.a.f" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="android.app.Service" jni-type="Landroid/app/Service;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Landroid/os/Message;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Message" jni-type="Landroid/os/Message;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(DDDJ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="double" jni-type="D"></parameter>
+        <parameter name="p1" type="double" jni-type="D"></parameter>
+        <parameter name="p2" type="double" jni-type="D"></parameter>
+        <parameter name="p3" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/util/Map;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.Map&lt;java.lang.String, java.lang.String&gt;" jni-type="Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="b" jni-signature="(Landroid/os/Message;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Message" jni-type="Landroid/os/Message;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="c" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="d" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLooperPrepared" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="false" name="A" jni-signature="Ljava/util/TimerTask;" static="false" transient="false" type="java.util.TimerTask" type-generic-aware="java.util.TimerTask" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="B" jni-signature="Landroid/content/Intent;" static="false" transient="false" type="android.content.Intent" type-generic-aware="android.content.Intent" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="C" jni-signature="Ljava/lang/Long;" static="false" transient="false" type="java.lang.Long" type-generic-aware="java.lang.Long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="D" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="E" jni-signature="Lnet/crowdconnected/androidcolocator/LocationCallback;" static="false" transient="false" type="net.crowdconnected.androidcolocator.LocationCallback" type-generic-aware="net.crowdconnected.androidcolocator.LocationCallback" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="Ljava/util/Set;" static="false" transient="false" type="java.util.Set" type-generic-aware="java.util.Set&lt;a.a.a.c.a&gt;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="La/a/a/c/c/a;" static="false" transient="false" type="a.a.a.c.c.a" type-generic-aware="a.a.a.c.c.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="La/a/a/c/f/c;" static="false" transient="false" type="a.a.a.c.f.c" type-generic-aware="a.a.a.c.f.c" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="La/a/a/c/b/a;" static="false" transient="false" type="a.a.a.c.b.a" type-generic-aware="a.a.a.c.b.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="f" jni-signature="La/a/a/c/d/a;" static="false" transient="false" type="a.a.a.c.d.a" type-generic-aware="a.a.a.c.d.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="g" jni-signature="La/a/a/c/e/a;" static="false" transient="false" type="a.a.a.c.e.a" type-generic-aware="a.a.a.c.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="h" jni-signature="La/a/a/d/a;" static="false" transient="false" type="a.a.a.d.a" type-generic-aware="a.a.a.d.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="i" jni-signature="Landroid/net/Uri;" static="false" transient="false" type="android.net.Uri" type-generic-aware="android.net.Uri" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="k" jni-signature="La/a/a/a/e;" static="false" transient="false" type="a.a.a.a.e" type-generic-aware="a.a.a.a.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="l" jni-signature="Landroid/os/PowerManager;" static="false" transient="false" type="android.os.PowerManager" type-generic-aware="android.os.PowerManager" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="m" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="n" jni-signature="La/a/a/a/a;" static="false" transient="false" type="a.a.a.a.a" type-generic-aware="a.a.a.a.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="o" jni-signature="La/a/a/a/k;" static="false" transient="false" type="a.a.a.a.k" type-generic-aware="a.a.a.a.k" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="p" jni-signature="Ljava/util/UUID;" static="false" transient="false" type="java.util.UUID" type-generic-aware="java.util.UUID" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="q" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="r" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="s" jni-signature="Landroid/os/Handler;" static="false" transient="false" type="android.os.Handler" type-generic-aware="android.os.Handler" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="t" jni-signature="Ljava/util/Map;" static="false" transient="false" type="java.util.Map" type-generic-aware="java.util.Map&lt;java.lang.String, java.lang.String&gt;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="u" jni-signature="La/a/a/a/c;" static="false" transient="false" type="a.a.a.a.c" type-generic-aware="a.a.a.a.c" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="v" jni-signature="Ljava/util/List;" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List&lt;java.lang.Integer&gt;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="w" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="x" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="y" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="z" jni-signature="Ljava/util/Timer;" static="false" transient="false" type="java.util.Timer" type-generic-aware="java.util.Timer" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.util.TimerTask" extends-generic-aware="java.util.TimerTask" jni-extends="Ljava/util/TimerTask;" final="false" name="f.a" static="false" visibility="public" jni-signature="La/a/a/a/f$a;">
+      <constructor deprecated="not deprecated" final="false" name="f.a" jni-signature="(La/a/a/a/f;)V" bridge="false" static="false" type="a.a.a.a.f.a" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.os.Handler" extends-generic-aware="android.os.Handler" jni-extends="Landroid/os/Handler;" final="false" name="f.b" static="false" visibility="public" jni-signature="La/a/a/a/f$b;">
+      <constructor deprecated="not deprecated" final="false" name="f.b" jni-signature="(La/a/a/a/f;Landroid/os/Looper;)V" bridge="false" static="false" type="a.a.a.a.f.b" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Looper" jni-type="Landroid/os/Looper;"></parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="f.c" static="false" visibility="public" jni-signature="La/a/a/a/f$c;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="f.c" jni-signature="(La/a/a/a/f;)V" bridge="false" static="false" type="a.a.a.a.f.c" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="f.d" static="false" visibility="public" jni-signature="La/a/a/a/f$d;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.content.BroadcastReceiver" extends-generic-aware="android.content.BroadcastReceiver" jni-extends="Landroid/content/BroadcastReceiver;" final="false" name="g" static="false" visibility="public" jni-signature="La/a/a/a/g;">
+      <constructor deprecated="not deprecated" final="false" name="g" jni-signature="(La/a/a/a/f;)V" bridge="false" static="false" type="a.a.a.a.g" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.a.f" jni-type="La/a/a/a/f;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onReceive" jni-signature="(Landroid/content/Context;Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="android.content.Intent" jni-type="Landroid/content/Intent;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="g.a" static="false" visibility="public" jni-signature="La/a/a/a/g$a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="g.a" jni-signature="(La/a/a/a/g;)V" bridge="false" static="false" type="a.a.a.a.g.a" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/g;" static="false" transient="false" type="a.a.a.a.g" type-generic-aware="a.a.a.a.g" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="h" static="false" visibility="public" jni-signature="La/a/a/a/h;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="h" jni-signature="(La/a/a/a/f;)V" bridge="false" static="false" type="a.a.a.a.h" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.a.f" jni-type="La/a/a/a/f;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.util.TimerTask" extends-generic-aware="java.util.TimerTask" jni-extends="Ljava/util/TimerTask;" final="false" name="i" static="false" visibility="public" jni-signature="La/a/a/a/i;">
+      <constructor deprecated="not deprecated" final="false" name="i" jni-signature="(La/a/a/a/f;)V" bridge="false" static="false" type="a.a.a.a.i" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.a.f" jni-type="La/a/a/a/f;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="j" static="false" visibility="public" jni-signature="La/a/a/a/j;">
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="J" static="true" transient="false" type="long" type-generic-aware="long" value="0" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="J" static="true" transient="false" type="long" type-generic-aware="long" value="0" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="k" static="false" visibility="public" jni-signature="La/a/a/a/k;">
+      <constructor deprecated="not deprecated" final="false" name="k" jni-signature="(Landroid/content/Context;La/a/a/a/f;La/a/a/d/a;)V" bridge="false" static="false" type="a.a.a.a.k" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="a.a.a.a.f" jni-type="La/a/a/a/f;"></parameter>
+        <parameter name="p2" type="a.a.a.d.a" jni-type="La/a/a/d/a;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/SharedPreferences;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.SharedPreferences" jni-type="Landroid/content/SharedPreferences;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="La/a/a/d/a;" static="false" transient="false" type="a.a.a.d.a" type-generic-aware="a.a.a.d.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="a.a.a.b" jni-name="a/a/a/b">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="La/a/a/b/a;">
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="[I" static="true" transient="false" type="int[]" type-generic-aware="int[]" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="a.a.a.c" jni-name="a/a/a/c">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="a" static="false" visibility="public" jni-signature="La/a/a/c/a;">
+      <implements name="android.os.Handler.Callback" name-generic-aware="android.os.Handler.Callback" jni-type="Landroid/os/Handler$Callback;"></implements>
+      <method abstract="true" deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="b" jni-signature="()Landroid/os/Handler;" bridge="false" native="false" return="android.os.Handler" jni-return="Landroid/os/Handler;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+    </interface>
+  </package>
+  <package name="a.a.a.c.b" jni-name="a/a/a/c/b">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="La/a/a/c/b/a;">
+      <implements name="a.a.a.c.a" name-generic-aware="a.a.a.c.a" jni-type="La/a/a/c/a;"></implements>
+      <implements name="android.os.Handler.Callback" name-generic-aware="android.os.Handler.Callback" jni-type="Landroid/os/Handler$Callback;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;La/a/a/a/f;)V" bridge="false" static="false" type="a.a.a.c.b.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="a.a.a.a.f" jni-type="La/a/a/a/f;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(I[BLjava/lang/String;J)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(I[BJ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="p2" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Landroid/os/Handler;" bridge="false" native="false" return="android.os.Handler" jni-return="Landroid/os/Handler;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="d" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="e" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="f" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="g" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="handleMessage" jni-signature="(Landroid/os/Message;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Message" jni-type="Landroid/os/Message;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/os/Handler;" static="false" transient="false" type="android.os.Handler" type-generic-aware="android.os.Handler" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="Landroid/bluetooth/BluetoothAdapter;" static="false" transient="false" type="android.bluetooth.BluetoothAdapter" type-generic-aware="android.bluetooth.BluetoothAdapter" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="i" jni-signature="Landroid/bluetooth/le/ScanCallback;" static="false" transient="false" type="android.bluetooth.le.ScanCallback" type-generic-aware="android.bluetooth.le.ScanCallback" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="j" jni-signature="Landroid/bluetooth/BluetoothAdapter$LeScanCallback;" static="false" transient="false" type="android.bluetooth.BluetoothAdapter.LeScanCallback" type-generic-aware="android.bluetooth.BluetoothAdapter.LeScanCallback" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="k" jni-signature="Landroid/bluetooth/le/ScanCallback;" static="false" transient="false" type="android.bluetooth.le.ScanCallback" type-generic-aware="android.bluetooth.le.ScanCallback" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="l" jni-signature="Landroid/bluetooth/BluetoothAdapter$LeScanCallback;" static="false" transient="false" type="android.bluetooth.BluetoothAdapter.LeScanCallback" type-generic-aware="android.bluetooth.BluetoothAdapter.LeScanCallback" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.a" static="false" visibility="public" jni-signature="La/a/a/c/b/a$a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a.a" jni-signature="(La/a/a/c/b/a;)V" bridge="false" static="false" type="a.a.a.c.b.a.a" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/c/b/a;" static="false" transient="false" type="a.a.a.c.b.a" type-generic-aware="a.a.a.c.b.a" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.b" static="false" visibility="public" jni-signature="La/a/a/c/b/a$b;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a.b" jni-signature="(La/a/a/c/b/a;)V" bridge="false" static="false" type="a.a.a.c.b.a.b" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/c/b/a;" static="false" transient="false" type="a.a.a.c.b.a" type-generic-aware="a.a.a.c.b.a" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.c" static="false" visibility="public" jni-signature="La/a/a/c/b/a$c;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a.c" jni-signature="(La/a/a/c/b/a;)V" bridge="false" static="false" type="a.a.a.c.b.a.c" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/c/b/a;" static="false" transient="false" type="a.a.a.c.b.a" type-generic-aware="a.a.a.c.b.a" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.bluetooth.le.ScanCallback" extends-generic-aware="android.bluetooth.le.ScanCallback" jni-extends="Landroid/bluetooth/le/ScanCallback;" final="false" name="b" static="false" visibility="public" jni-signature="La/a/a/c/b/b;">
+      <constructor deprecated="not deprecated" final="false" name="b" jni-signature="(La/a/a/c/b/a;)V" bridge="false" static="false" type="a.a.a.c.b.b" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.c.b.a" jni-type="La/a/a/c/b/a;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onBatchScanResults" jni-signature="(Ljava/util/List;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;android.bluetooth.le.ScanResult&gt;" jni-type="Ljava/util/List&lt;Landroid/bluetooth/le/ScanResult;&gt;;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/c/b/a;" static="false" transient="false" type="a.a.a.c.b.a" type-generic-aware="a.a.a.c.b.a" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b.a" static="false" visibility="public" jni-signature="La/a/a/c/b/b$a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="b.a" jni-signature="(La/a/a/c/b/b;Landroid/bluetooth/le/ScanResult;)V" bridge="false" static="false" type="a.a.a.c.b.b.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.bluetooth.le.ScanResult" jni-type="Landroid/bluetooth/le/ScanResult;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/bluetooth/le/ScanResult;" static="false" transient="false" type="android.bluetooth.le.ScanResult" type-generic-aware="android.bluetooth.le.ScanResult" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/c/b/b;" static="false" transient="false" type="a.a.a.c.b.b" type-generic-aware="a.a.a.c.b.b" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b.b" static="false" visibility="public" jni-signature="La/a/a/c/b/b$b;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="b.b" jni-signature="(La/a/a/c/b/b;Ljava/util/List;)V" bridge="false" static="false" type="a.a.a.c.b.b.b" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.List" jni-type="Ljava/util/List;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Ljava/util/List;" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/c/b/b;" static="false" transient="false" type="a.a.a.c.b.b" type-generic-aware="a.a.a.c.b.b" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.bluetooth.le.ScanCallback" extends-generic-aware="android.bluetooth.le.ScanCallback" jni-extends="Landroid/bluetooth/le/ScanCallback;" final="false" name="c" static="false" visibility="public" jni-signature="La/a/a/c/b/c;">
+      <constructor deprecated="not deprecated" final="false" name="c" jni-signature="(La/a/a/c/b/a;)V" bridge="false" static="false" type="a.a.a.c.b.c" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.c.b.a" jni-type="La/a/a/c/b/a;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onBatchScanResults" jni-signature="(Ljava/util/List;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;android.bluetooth.le.ScanResult&gt;" jni-type="Ljava/util/List&lt;Landroid/bluetooth/le/ScanResult;&gt;;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/c/b/a;" static="false" transient="false" type="a.a.a.c.b.a" type-generic-aware="a.a.a.c.b.a" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c.a" static="false" visibility="public" jni-signature="La/a/a/c/b/c$a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="c.a" jni-signature="(La/a/a/c/b/c;Landroid/bluetooth/le/ScanResult;)V" bridge="false" static="false" type="a.a.a.c.b.c.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.bluetooth.le.ScanResult" jni-type="Landroid/bluetooth/le/ScanResult;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/bluetooth/le/ScanResult;" static="false" transient="false" type="android.bluetooth.le.ScanResult" type-generic-aware="android.bluetooth.le.ScanResult" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/c/b/c;" static="false" transient="false" type="a.a.a.c.b.c" type-generic-aware="a.a.a.c.b.c" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c.b" static="false" visibility="public" jni-signature="La/a/a/c/b/c$b;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="c.b" jni-signature="(La/a/a/c/b/c;Ljava/util/List;)V" bridge="false" static="false" type="a.a.a.c.b.c.b" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.List" jni-type="Ljava/util/List;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Ljava/util/List;" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/c/b/c;" static="false" transient="false" type="a.a.a.c.b.c" type-generic-aware="a.a.a.c.b.c" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="d" static="false" visibility="public" jni-signature="La/a/a/c/b/d;">
+      <implements name="android.bluetooth.BluetoothAdapter.LeScanCallback" name-generic-aware="android.bluetooth.BluetoothAdapter.LeScanCallback" jni-type="Landroid/bluetooth/BluetoothAdapter$LeScanCallback;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="d" jni-signature="(La/a/a/c/b/a;)V" bridge="false" static="false" type="a.a.a.c.b.d" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.c.b.a" jni-type="La/a/a/c/b/a;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLeScan" jni-signature="(Landroid/bluetooth/BluetoothDevice;I[B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.bluetooth.BluetoothDevice" jni-type="Landroid/bluetooth/BluetoothDevice;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+        <parameter name="p2" type="byte[]" jni-type="[B"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/c/b/a;" static="false" transient="false" type="a.a.a.c.b.a" type-generic-aware="a.a.a.c.b.a" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="d.a" static="false" visibility="public" jni-signature="La/a/a/c/b/d$a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="d.a" jni-signature="(La/a/a/c/b/d;I[B)V" bridge="false" static="false" type="a.a.a.c.b.d.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="[B" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="La/a/a/c/b/d;" static="false" transient="false" type="a.a.a.c.b.d" type-generic-aware="a.a.a.c.b.d" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="e" static="false" visibility="public" jni-signature="La/a/a/c/b/e;">
+      <implements name="android.bluetooth.BluetoothAdapter.LeScanCallback" name-generic-aware="android.bluetooth.BluetoothAdapter.LeScanCallback" jni-type="Landroid/bluetooth/BluetoothAdapter$LeScanCallback;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="e" jni-signature="(La/a/a/c/b/a;)V" bridge="false" static="false" type="a.a.a.c.b.e" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.c.b.a" jni-type="La/a/a/c/b/a;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onLeScan" jni-signature="(Landroid/bluetooth/BluetoothDevice;I[B)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.bluetooth.BluetoothDevice" jni-type="Landroid/bluetooth/BluetoothDevice;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+        <parameter name="p2" type="byte[]" jni-type="[B"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/c/b/a;" static="false" transient="false" type="a.a.a.c.b.a" type-generic-aware="a.a.a.c.b.a" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="e.a" static="false" visibility="public" jni-signature="La/a/a/c/b/e$a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="e.a" jni-signature="(La/a/a/c/b/e;I[BLandroid/bluetooth/BluetoothDevice;)V" bridge="false" static="false" type="a.a.a.c.b.e.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="byte[]" jni-type="[B"></parameter>
+        <parameter name="p2" type="android.bluetooth.BluetoothDevice" jni-type="Landroid/bluetooth/BluetoothDevice;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="[B" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="Landroid/bluetooth/BluetoothDevice;" static="false" transient="false" type="android.bluetooth.BluetoothDevice" type-generic-aware="android.bluetooth.BluetoothDevice" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="La/a/a/c/b/e;" static="false" transient="false" type="a.a.a.c.b.e" type-generic-aware="a.a.a.c.b.e" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="i" static="false" visibility="public" jni-signature="La/a/a/c/b/i;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()Landroid/bluetooth/le/ScanSettings;" bridge="false" native="false" return="android.bluetooth.le.ScanSettings" jni-return="Landroid/bluetooth/le/ScanSettings;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/os/ParcelUuid;" static="true" transient="false" type="android.os.ParcelUuid" type-generic-aware="android.os.ParcelUuid" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="a.a.a.c.c" jni-name="a/a/a/c/c">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="La/a/a/c/c/a;">
+      <implements name="a.a.a.c.a" name-generic-aware="a.a.a.c.a" jni-type="La/a/a/c/a;"></implements>
+      <implements name="android.os.Handler.Callback" name-generic-aware="android.os.Handler.Callback" jni-type="Landroid/os/Handler$Callback;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;La/a/a/a/f;)V" bridge="false" static="false" type="a.a.a.c.c.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="a.a.a.a.f" jni-type="La/a/a/a/f;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Landroid/os/Handler;" bridge="false" native="false" return="android.os.Handler" jni-return="Landroid/os/Handler;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="c" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="d" jni-signature="()Lcom/google/android/gms/location/LocationRequest;" bridge="false" native="false" return="com.google.android.gms.location.LocationRequest" jni-return="Lcom/google/android/gms/location/LocationRequest;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="f" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="g" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="handleMessage" jni-signature="(Landroid/os/Message;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Message" jni-type="Landroid/os/Message;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/os/Handler;" static="false" transient="false" type="android.os.Handler" type-generic-aware="android.os.Handler" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="Lcom/google/android/gms/location/FusedLocationProviderClient;" static="false" transient="false" type="com.google.android.gms.location.FusedLocationProviderClient" type-generic-aware="com.google.android.gms.location.FusedLocationProviderClient" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="Landroid/app/PendingIntent;" static="false" transient="false" type="android.app.PendingIntent" type-generic-aware="android.app.PendingIntent" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="f" jni-signature="La/a/a/c/c/a$d;" static="false" transient="false" type="a.a.a.c.c.a.d" type-generic-aware="a.a.a.c.c.a.d" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.a" static="false" visibility="public" jni-signature="La/a/a/c/c/a$a;">
+      <implements name="com.google.android.gms.tasks.OnSuccessListener" name-generic-aware="com.google.android.gms.tasks.OnSuccessListener&lt;java.lang.Void&gt;" jni-type="Lcom/google/android/gms/tasks/OnSuccessListener&lt;Ljava/lang/Void;&gt;;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a.a" jni-signature="(La/a/a/c/c/a;)V" bridge="false" static="false" type="a.a.a.c.c.a.a" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSuccess" jni-signature="(Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Object" jni-type="Ljava/lang/Object;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.b" static="false" visibility="public" jni-signature="La/a/a/c/c/a$b;">
+      <implements name="com.google.android.gms.tasks.OnFailureListener" name-generic-aware="com.google.android.gms.tasks.OnFailureListener" jni-type="Lcom/google/android/gms/tasks/OnFailureListener;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a.b" jni-signature="(La/a/a/c/c/a;)V" bridge="false" static="false" type="a.a.a.c.c.a.b" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFailure" jni-signature="(Ljava/lang/Exception;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.Exception" jni-type="Ljava/lang/Exception;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.c" static="false" visibility="public" jni-signature="La/a/a/c/c/a$c;">
+      <implements name="com.google.android.gms.tasks.OnCompleteListener" name-generic-aware="com.google.android.gms.tasks.OnCompleteListener&lt;java.lang.Void&gt;" jni-type="Lcom/google/android/gms/tasks/OnCompleteListener&lt;Ljava/lang/Void;&gt;;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a.c" jni-signature="(La/a/a/c/c/a;)V" bridge="false" static="false" type="a.a.a.c.c.a.c" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onComplete" jni-signature="(Lcom/google/android/gms/tasks/Task;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="com.google.android.gms.tasks.Task&lt;java.lang.Void&gt;" jni-type="Lcom/google/android/gms/tasks/Task&lt;Ljava/lang/Void;&gt;;"></parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.content.BroadcastReceiver" extends-generic-aware="android.content.BroadcastReceiver" jni-extends="Landroid/content/BroadcastReceiver;" final="false" name="a.d" static="false" visibility="public" jni-signature="La/a/a/c/c/a$d;">
+      <constructor deprecated="not deprecated" final="false" name="a.d" jni-signature="(La/a/a/c/c/a;La/a/a/c/c/a$a;)V" bridge="false" static="false" type="a.a.a.c.c.a.d" synthetic="true" visibility="public">
+        <parameter name="p0" type="a.a.a.c.c.a.a" jni-type="La/a/a/c/c/a$a;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onReceive" jni-signature="(Landroid/content/Context;Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="android.content.Intent" jni-type="Landroid/content/Intent;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/c/c/a;" static="false" transient="false" type="a.a.a.c.c.a" type-generic-aware="a.a.a.c.c.a" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.d.a" static="false" visibility="public" jni-signature="La/a/a/c/c/a$d$a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a.d.a" jni-signature="(La/a/a/c/c/a$d;Landroid/content/Intent;)V" bridge="false" static="false" type="a.a.a.c.c.a.d.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Intent" jni-type="Landroid/content/Intent;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/content/Intent;" static="false" transient="false" type="android.content.Intent" type-generic-aware="android.content.Intent" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/c/c/a$d;" static="false" transient="false" type="a.a.a.c.c.a.d" type-generic-aware="a.a.a.c.c.a.d" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="a.a.a.c.d" jni-name="a/a/a/c/d">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="La/a/a/c/d/a;">
+      <implements name="a.a.a.c.a" name-generic-aware="a.a.a.c.a" jni-type="La/a/a/c/a;"></implements>
+      <implements name="android.os.Handler.Callback" name-generic-aware="android.os.Handler.Callback" jni-type="Landroid/os/Handler$Callback;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;La/a/a/a/f;)V" bridge="false" static="false" type="a.a.a.c.d.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="a.a.a.a.f" jni-type="La/a/a/a/f;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Landroid/hardware/SensorEvent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.SensorEvent" jni-type="Landroid/hardware/SensorEvent;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(J)J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Landroid/os/Handler;" bridge="false" native="false" return="android.os.Handler" jni-return="Landroid/os/Handler;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="handleMessage" jni-signature="(Landroid/os/Message;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Message" jni-type="Landroid/os/Message;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/os/Handler;" static="false" transient="false" type="android.os.Handler" type-generic-aware="android.os.Handler" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="Landroid/hardware/SensorManager;" static="false" transient="false" type="android.hardware.SensorManager" type-generic-aware="android.hardware.SensorManager" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="La/a/a/c/d/a$b;" static="false" transient="false" type="a.a.a.c.d.a.b" type-generic-aware="a.a.a.c.d.a.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="g" jni-signature="D" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="h" jni-signature="D" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="i" jni-signature="D" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="j" jni-signature="D" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="k" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="l" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="m" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.a" static="true" visibility="public" jni-signature="La/a/a/c/d/a$a;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.b" static="false" visibility="public" jni-signature="La/a/a/c/d/a$b;">
+      <implements name="android.hardware.SensorEventListener" name-generic-aware="android.hardware.SensorEventListener" jni-type="Landroid/hardware/SensorEventListener;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a.b" jni-signature="(La/a/a/c/d/a;La/a/a/c/d/a$a;)V" bridge="false" static="false" type="a.a.a.c.d.a.b" synthetic="true" visibility="public">
+        <parameter name="p0" type="a.a.a.c.d.a.a" jni-type="La/a/a/c/d/a$a;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAccuracyChanged" jni-signature="(Landroid/hardware/Sensor;I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.Sensor" jni-type="Landroid/hardware/Sensor;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSensorChanged" jni-signature="(Landroid/hardware/SensorEvent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.SensorEvent" jni-type="Landroid/hardware/SensorEvent;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/c/d/a;" static="false" transient="false" type="a.a.a.c.d.a" type-generic-aware="a.a.a.c.d.a" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.b.a" static="false" visibility="public" jni-signature="La/a/a/c/d/a$b$a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a.b.a" jni-signature="(La/a/a/c/d/a$b;Landroid/hardware/SensorEvent;)V" bridge="false" static="false" type="a.a.a.c.d.a.b.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.hardware.SensorEvent" jni-type="Landroid/hardware/SensorEvent;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/hardware/SensorEvent;" static="false" transient="false" type="android.hardware.SensorEvent" type-generic-aware="android.hardware.SensorEvent" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/c/d/a$b;" static="false" transient="false" type="a.a.a.c.d.a.b" type-generic-aware="a.a.a.c.d.a.b" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="a.a.a.c.e" jni-name="a/a/a/c/e">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="La/a/a/c/e/a;">
+      <implements name="a.a.a.c.a" name-generic-aware="a.a.a.c.a" jni-type="La/a/a/c/a;"></implements>
+      <implements name="android.os.Handler.Callback" name-generic-aware="android.os.Handler.Callback" jni-type="Landroid/os/Handler$Callback;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;La/a/a/a/f;)V" bridge="false" static="false" type="a.a.a.c.e.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="a.a.a.a.f" jni-type="La/a/a/a/f;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(La/a/a/c/e/c;Ljava/lang/String;Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.c.e.c" jni-type="La/a/a/c/e/c;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(JLjava/lang/String;Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Landroid/os/Handler;" bridge="false" native="false" return="android.os.Handler" jni-return="Landroid/os/Handler;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="c" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="d" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="handleMessage" jni-signature="(Landroid/os/Message;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Message" jni-type="Landroid/os/Message;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/os/Handler;" static="false" transient="false" type="android.os.Handler" type-generic-aware="android.os.Handler" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="Landroid/bluetooth/BluetoothAdapter;" static="false" transient="false" type="android.bluetooth.BluetoothAdapter" type-generic-aware="android.bluetooth.BluetoothAdapter" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="e" jni-signature="Ljava/util/Map;" static="false" transient="false" type="java.util.Map" type-generic-aware="java.util.Map&lt;java.lang.String, a.a.a.c.e.c&gt;" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a.a" static="false" visibility="public" jni-signature="La/a/a/c/e/a$a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a.a" jni-signature="(La/a/a/c/e/a;ZLjava/lang/String;)V" bridge="false" static="false" type="a.a.a.c.e.a.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="La/a/a/c/e/a;" static="false" transient="false" type="a.a.a.c.e.a" type-generic-aware="a.a.a.c.e.a" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b" static="false" visibility="public" jni-signature="La/a/a/c/e/b;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(JJLandroid/content/Context;)J" bridge="false" native="false" return="long" jni-return="J" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="long" jni-type="J"></parameter>
+        <parameter name="p1" type="long" jni-type="J"></parameter>
+        <parameter name="p2" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="[C" static="true" transient="false" type="char[]" type-generic-aware="char[]" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="c" static="false" visibility="public" jni-signature="La/a/a/c/e/c;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Lorg/altbeacon/beacon/BeaconTransmitter;" static="false" transient="false" type="org.altbeacon.beacon.BeaconTransmitter" type-generic-aware="org.altbeacon.beacon.BeaconTransmitter" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="Lorg/altbeacon/beacon/Beacon;" static="false" transient="false" type="org.altbeacon.beacon.Beacon" type-generic-aware="org.altbeacon.beacon.Beacon" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="Ljava/lang/Long;" static="false" transient="false" type="java.lang.Long" type-generic-aware="java.lang.Long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="Ljava/lang/Long;" static="false" transient="false" type="java.lang.Long" type-generic-aware="java.lang.Long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="e" jni-signature="Ljava/lang/Long;" static="false" transient="false" type="java.lang.Long" type-generic-aware="java.lang.Long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="f" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="a.a.a.c.f" jni-name="a/a/a/c/f">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="La/a/a/c/f/a;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="(La/a/a/c/f/c;)V" bridge="false" static="false" type="a.a.a.c.f.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.c.f.c" jni-type="La/a/a/c/f/c;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/c/f/c;" static="false" transient="false" type="a.a.a.c.f.c" type-generic-aware="a.a.a.c.f.c" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="b" static="false" visibility="public" jni-signature="La/a/a/c/f/b;">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="b" jni-signature="(La/a/a/c/f/c;)V" bridge="false" static="false" type="a.a.a.c.f.b" synthetic="false" visibility="public">
+        <parameter name="p0" type="a.a.a.c.f.c" jni-type="La/a/a/c/f/c;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/c/f/c;" static="false" transient="false" type="a.a.a.c.f.c" type-generic-aware="a.a.a.c.f.c" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.content.BroadcastReceiver" extends-generic-aware="android.content.BroadcastReceiver" jni-extends="Landroid/content/BroadcastReceiver;" final="false" name="c" static="false" visibility="public" jni-signature="La/a/a/c/f/c;">
+      <implements name="a.a.a.c.a" name-generic-aware="a.a.a.c.a" jni-type="La/a/a/c/a;"></implements>
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable" jni-type="Ljava/lang/Runnable;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="c" jni-signature="(Landroid/content/Context;La/a/a/a/f;)V" bridge="false" static="false" type="a.a.a.c.f.c" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="a.a.a.a.f" jni-type="La/a/a/a/f;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="(Ljava/util/List;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;android.net.wifi.ScanResult&gt;" jni-type="Ljava/util/List&lt;Landroid/net/wifi/ScanResult;&gt;;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Landroid/os/Handler;" bridge="false" native="false" return="android.os.Handler" jni-return="Landroid/os/Handler;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="c" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="d" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="e" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="f" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="g" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="handleMessage" jni-signature="(Landroid/os/Message;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.os.Message" jni-type="Landroid/os/Message;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onReceive" jni-signature="(Landroid/content/Context;Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="android.content.Intent" jni-type="Landroid/content/Intent;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="Landroid/os/Handler;" static="false" transient="false" type="android.os.Handler" type-generic-aware="android.os.Handler" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="Landroid/net/wifi/WifiManager;" static="false" transient="false" type="android.net.wifi.WifiManager" type-generic-aware="android.net.wifi.WifiManager" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="Landroid/net/wifi/rtt/WifiRttManager;" static="false" transient="false" type="android.net.wifi.rtt.WifiRttManager" type-generic-aware="android.net.wifi.rtt.WifiRttManager" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="f" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="g" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="h" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="i" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="j" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="k" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="l" jni-signature="Ljava/util/concurrent/Executor;" static="false" transient="false" type="java.util.concurrent.Executor" type-generic-aware="java.util.concurrent.Executor" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="a.a.a.d" jni-name="a/a/a/d">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="a" static="false" visibility="public" jni-signature="La/a/a/d/a;">
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/app/Service;Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V" bridge="false" static="false" type="a.a.a.d.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Service" jni-type="Landroid/app/Service;"></parameter>
+        <parameter name="p1" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p3" type="int" jni-type="I"></parameter>
+        <parameter name="p4" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/app/Service;" static="false" transient="false" type="android.app.Service" type-generic-aware="android.app.Service" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="a.a.a.e" jni-name="a/a/a/e">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;a.a.a.e.a&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="a" static="false" visibility="public" jni-signature="La/a/a/e/a;">
+      <constructor deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;II)V" bridge="false" static="false" type="a.a.a.e.a" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+        <parameter name="p2" type="int" jni-type="I"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(I)La/a/a/e/a;" bridge="false" native="false" return="a.a.a.e.a" jni-return="La/a/a/e/a;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)La/a/a/e/a;" bridge="false" native="false" return="a.a.a.e.a" jni-return="La/a/a/e/a;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[La/a/a/e/a;" bridge="false" native="false" return="a.a.a.e.a[]" jni-return="[La/a/a/e/a;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="e" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="f" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="g" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="h" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="i" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="j" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="k" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="l" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="m" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="n" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="o" jni-signature="La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a" type-generic-aware="a.a.a.e.a" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="p" jni-signature="[La/a/a/e/a;" static="true" transient="false" type="a.a.a.e.a[]" type-generic-aware="a.a.a.e.a[]" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;a.a.a.e.b&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="b" static="false" visibility="public" jni-signature="La/a/a/e/b;">
+      <constructor deprecated="not deprecated" final="false" name="b" jni-signature="(Ljava/lang/String;II)V" bridge="false" static="false" type="a.a.a.e.b" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+        <parameter name="p2" type="int" jni-type="I"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)La/a/a/e/b;" bridge="false" native="false" return="a.a.a.e.b" jni-return="La/a/a/e/b;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[La/a/a/e/b;" bridge="false" native="false" return="a.a.a.e.b[]" jni-return="[La/a/a/e/b;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="I" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="e" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="f" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="g" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="h" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="i" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="j" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="k" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="l" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="m" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="n" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="o" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="p" jni-signature="La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b" type-generic-aware="a.a.a.e.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="q" jni-signature="[La/a/a/e/b;" static="true" transient="false" type="a.a.a.e.b[]" type-generic-aware="a.a.a.e.b[]" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;a.a.a.e.c&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="c" static="false" visibility="public" jni-signature="La/a/a/e/c;">
+      <constructor deprecated="not deprecated" final="false" name="c" jni-signature="(Ljava/lang/String;I)V" bridge="false" static="false" type="a.a.a.e.c" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)La/a/a/e/c;" bridge="false" native="false" return="a.a.a.e.c" jni-return="La/a/a/e/c;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[La/a/a/e/c;" bridge="false" native="false" return="a.a.a.e.c[]" jni-return="[La/a/a/e/c;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="La/a/a/e/c;" static="true" transient="false" type="a.a.a.e.c" type-generic-aware="a.a.a.e.c" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/e/c;" static="true" transient="false" type="a.a.a.e.c" type-generic-aware="a.a.a.e.c" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="La/a/a/e/c;" static="true" transient="false" type="a.a.a.e.c" type-generic-aware="a.a.a.e.c" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="La/a/a/e/c;" static="true" transient="false" type="a.a.a.e.c" type-generic-aware="a.a.a.e.c" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="e" jni-signature="[La/a/a/e/c;" static="true" transient="false" type="a.a.a.e.c[]" type-generic-aware="a.a.a.e.c[]" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;a.a.a.e.d&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="d" static="false" visibility="public" jni-signature="La/a/a/e/d;">
+      <constructor deprecated="not deprecated" final="false" name="d" jni-signature="(Ljava/lang/String;ILjava/lang/String;)V" bridge="false" static="false" type="a.a.a.e.d" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)La/a/a/e/d;" bridge="false" native="false" return="a.a.a.e.d" jni-return="La/a/a/e/d;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[La/a/a/e/d;" bridge="false" native="false" return="a.a.a.e.d[]" jni-return="[La/a/a/e/d;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/e/d;" static="true" transient="false" type="a.a.a.e.d" type-generic-aware="a.a.a.e.d" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="La/a/a/e/d;" static="true" transient="false" type="a.a.a.e.d" type-generic-aware="a.a.a.e.d" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="La/a/a/e/d;" static="true" transient="false" type="a.a.a.e.d" type-generic-aware="a.a.a.e.d" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="e" jni-signature="La/a/a/e/d;" static="true" transient="false" type="a.a.a.e.d" type-generic-aware="a.a.a.e.d" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="f" jni-signature="[La/a/a/e/d;" static="true" transient="false" type="a.a.a.e.d[]" type-generic-aware="a.a.a.e.d[]" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;a.a.a.e.e&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="e" static="false" visibility="public" jni-signature="La/a/a/e/e;">
+      <constructor deprecated="not deprecated" final="false" name="e" jni-signature="(Ljava/lang/String;ILjava/lang/String;)V" bridge="false" static="false" type="a.a.a.e.e" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="int" jni-type="I"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)La/a/a/e/e;" bridge="false" native="false" return="a.a.a.e.e" jni-return="La/a/a/e/e;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[La/a/a/e/e;" bridge="false" native="false" return="a.a.a.e.e[]" jni-return="[La/a/a/e/e;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Ljava/lang/String;" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="e" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="f" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="g" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="h" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="i" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="j" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="k" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="l" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="m" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="n" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="o" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="p" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="q" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="r" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="s" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="t" jni-signature="La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e" type-generic-aware="a.a.a.e.e" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="u" jni-signature="[La/a/a/e/e;" static="true" transient="false" type="a.a.a.e.e[]" type-generic-aware="a.a.a.e.e[]" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="f" static="false" visibility="public" jni-signature="La/a/a/e/f;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;)J" bridge="false" native="false" return="long" jni-return="J" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/content/Context;Z)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="J" static="true" transient="false" type="long" type-generic-aware="long" value="0" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="net.crowdconnected.androidcolocator" jni-name="net/crowdconnected/androidcolocator">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="CoLocator" static="false" visibility="public" jni-signature="Lnet/crowdconnected/androidcolocator/CoLocator;">
+      <constructor deprecated="not deprecated" final="false" name="CoLocator" jni-signature="(Landroid/app/Application;)V" bridge="false" static="false" type="net.crowdconnected.androidcolocator.CoLocator" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Application" jni-type="Landroid/app/Application;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Landroid/app/Application;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Application" jni-type="Landroid/app/Application;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="addAlias" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="destroy" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDeviceId" jni-signature="()Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" jni-signature="(Landroid/app/Application;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Application" jni-type="Landroid/app/Application;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" jni-signature="(Landroid/app/Application;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Application" jni-type="Landroid/app/Application;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="instance" jni-signature="()Lnet/crowdconnected/androidcolocator/CoLocator;" bridge="false" native="false" return="net.crowdconnected.androidcolocator.CoLocator" jni-return="Lnet/crowdconnected/androidcolocator/CoLocator;" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isDebugging" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="true" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="registerLocationListener" jni-signature="(Lnet/crowdconnected/androidcolocator/LocationCallback;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="net.crowdconnected.androidcolocator.LocationCallback" jni-type="Lnet/crowdconnected/androidcolocator/LocationCallback;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="requestLocation" jni-signature="(Lnet/crowdconnected/androidcolocator/LocationCallback;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="net.crowdconnected.androidcolocator.LocationCallback" jni-type="Lnet/crowdconnected/androidcolocator/LocationCallback;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="sendUserLocation" jni-signature="(DDDJ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="double" jni-type="D"></parameter>
+        <parameter name="p1" type="double" jni-type="D"></parameter>
+        <parameter name="p2" type="double" jni-type="D"></parameter>
+        <parameter name="p3" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAlias" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setDebugging" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setServiceNotificationInfo" jni-signature="(Landroid/app/Application;Ljava/lang/String;ILjava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Application" jni-type="Landroid/app/Application;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="int" jni-type="I"></parameter>
+        <parameter name="p3" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSurveyMode" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="start" jni-signature="(Landroid/app/Application;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Application" jni-type="Landroid/app/Application;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="start" jni-signature="(Landroid/app/Application;Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.app.Application" jni-type="Landroid/app/Application;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p2" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="stop" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="unregisterLocationListener" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/app/Application;" static="false" transient="false" type="android.app.Application" type-generic-aware="android.app.Application" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="b" jni-signature="Lnet/crowdconnected/androidcolocator/CoLocator$c;" static="false" transient="false" type="net.crowdconnected.androidcolocator.CoLocator.c" type-generic-aware="net.crowdconnected.androidcolocator.CoLocator.c" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="Lnet/crowdconnected/androidcolocator/service/CoLocatorService;" static="false" transient="false" type="net.crowdconnected.androidcolocator.service.CoLocatorService" type-generic-aware="net.crowdconnected.androidcolocator.service.CoLocatorService" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="d" jni-signature="Lnet/crowdconnected/androidcolocator/CoLocator$b;" static="false" transient="false" type="net.crowdconnected.androidcolocator.CoLocator.b" type-generic-aware="net.crowdconnected.androidcolocator.CoLocator.b" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="Z" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="f" jni-signature="Ljava/lang/Boolean;" static="false" transient="false" type="java.lang.Boolean" type-generic-aware="java.lang.Boolean" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="g" jni-signature="Ljava/util/Map;" static="false" transient="false" type="java.util.Map" type-generic-aware="java.util.Map&lt;java.lang.String, java.lang.String&gt;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="h" jni-signature="Ljava/util/List;" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List&lt;net.crowdconnected.androidcolocator.CoLocator.d&gt;" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="j" jni-signature="Lnet/crowdconnected/androidcolocator/LocationCallback;" static="false" transient="false" type="net.crowdconnected.androidcolocator.LocationCallback" type-generic-aware="net.crowdconnected.androidcolocator.LocationCallback" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="k" jni-signature="Lnet/crowdconnected/androidcolocator/CoLocator;" static="true" transient="false" type="net.crowdconnected.androidcolocator.CoLocator" type-generic-aware="net.crowdconnected.androidcolocator.CoLocator" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="l" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="CoLocator.a" static="true" visibility="public" jni-signature="Lnet/crowdconnected/androidcolocator/CoLocator$a;"></class>
+    <class abstract="false" deprecated="not deprecated" extends="android.content.BroadcastReceiver" extends-generic-aware="android.content.BroadcastReceiver" jni-extends="Landroid/content/BroadcastReceiver;" final="false" name="CoLocator.b" static="false" visibility="public" jni-signature="Lnet/crowdconnected/androidcolocator/CoLocator$b;">
+      <constructor deprecated="not deprecated" final="false" name="CoLocator.b" jni-signature="(Lnet/crowdconnected/androidcolocator/CoLocator;Lnet/crowdconnected/androidcolocator/CoLocator$a;)V" bridge="false" static="false" type="net.crowdconnected.androidcolocator.CoLocator.b" synthetic="true" visibility="public">
+        <parameter name="p0" type="net.crowdconnected.androidcolocator.CoLocator.a" jni-type="Lnet/crowdconnected/androidcolocator/CoLocator$a;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onReceive" jni-signature="(Landroid/content/Context;Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="android.content.Intent" jni-type="Landroid/content/Intent;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Lnet/crowdconnected/androidcolocator/CoLocator;" static="false" transient="false" type="net.crowdconnected.androidcolocator.CoLocator" type-generic-aware="net.crowdconnected.androidcolocator.CoLocator" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="CoLocator.c" static="false" visibility="public" jni-signature="Lnet/crowdconnected/androidcolocator/CoLocator$c;">
+      <implements name="android.content.ServiceConnection" name-generic-aware="android.content.ServiceConnection" jni-type="Landroid/content/ServiceConnection;"></implements>
+      <constructor deprecated="not deprecated" final="false" name="CoLocator.c" jni-signature="(Lnet/crowdconnected/androidcolocator/CoLocator;Lnet/crowdconnected/androidcolocator/CoLocator$a;)V" bridge="false" static="false" type="net.crowdconnected.androidcolocator.CoLocator.c" synthetic="true" visibility="public">
+        <parameter name="p0" type="net.crowdconnected.androidcolocator.CoLocator.a" jni-type="Lnet/crowdconnected/androidcolocator/CoLocator$a;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onServiceConnected" jni-signature="(Landroid/content/ComponentName;Landroid/os/IBinder;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.ComponentName" jni-type="Landroid/content/ComponentName;"></parameter>
+        <parameter name="p1" type="android.os.IBinder" jni-type="Landroid/os/IBinder;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onServiceDisconnected" jni-signature="(Landroid/content/ComponentName;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.ComponentName" jni-type="Landroid/content/ComponentName;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Lnet/crowdconnected/androidcolocator/CoLocator;" static="false" transient="false" type="net.crowdconnected.androidcolocator.CoLocator" type-generic-aware="net.crowdconnected.androidcolocator.CoLocator" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="CoLocator.d" static="false" visibility="public" jni-signature="Lnet/crowdconnected/androidcolocator/CoLocator$d;">
+      <constructor deprecated="not deprecated" final="false" name="CoLocator.d" jni-signature="(Lnet/crowdconnected/androidcolocator/CoLocator;DDDJ)V" bridge="false" static="false" type="net.crowdconnected.androidcolocator.CoLocator.d" synthetic="false" visibility="public">
+        <parameter name="p0" type="double" jni-type="D"></parameter>
+        <parameter name="p1" type="double" jni-type="D"></parameter>
+        <parameter name="p2" type="double" jni-type="D"></parameter>
+        <parameter name="p3" type="long" jni-type="J"></parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="D" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="D" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="D" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="LocationCallback" static="false" visibility="public" jni-signature="Lnet/crowdconnected/androidcolocator/LocationCallback;">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onLocationReceived" jni-signature="(Lnet/crowdconnected/androidcolocator/connector/LocationResponse;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="net.crowdconnected.androidcolocator.connector.LocationResponse" jni-type="Lnet/crowdconnected/androidcolocator/connector/LocationResponse;"></parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onLocationsReceived" jni-signature="(Ljava/util/List;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;net.crowdconnected.androidcolocator.connector.LocationResponse&gt;" jni-type="Ljava/util/List&lt;Lnet/crowdconnected/androidcolocator/connector/LocationResponse;&gt;;"></parameter>
+      </method>
+    </interface>
+  </package>
+  <package name="net.crowdconnected.androidcolocator.connector" jni-name="net/crowdconnected/androidcolocator/connector">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="LocationResponse" static="false" visibility="public" jni-signature="Lnet/crowdconnected/androidcolocator/connector/LocationResponse;">
+      <constructor deprecated="not deprecated" final="false" name="LocationResponse" jni-signature="(DDDDJ)V" bridge="false" static="false" type="net.crowdconnected.androidcolocator.connector.LocationResponse" synthetic="false" visibility="public">
+        <parameter name="p0" type="double" jni-type="D"></parameter>
+        <parameter name="p1" type="double" jni-type="D"></parameter>
+        <parameter name="p2" type="double" jni-type="D"></parameter>
+        <parameter name="p3" type="double" jni-type="D"></parameter>
+        <parameter name="p4" type="long" jni-type="J"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getError" jni-signature="()D" bridge="false" native="false" return="double" jni-return="D" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getHeadingOffset" jni-signature="()D" bridge="false" native="false" return="double" jni-return="D" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLatitude" jni-signature="()D" bridge="false" native="false" return="double" jni-return="D" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLongitude" jni-signature="()D" bridge="false" native="false" return="double" jni-return="D" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTimestamp" jni-signature="()J" bridge="false" native="false" return="long" jni-return="J" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <field deprecated="not deprecated" final="false" name="a" jni-signature="D" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="D" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="c" jni-signature="D" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="d" jni-signature="D" static="false" transient="false" type="double" type-generic-aware="double" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="e" jni-signature="J" static="false" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="net.crowdconnected.androidcolocator.observer.wifi" jni-name="net/crowdconnected/androidcolocator/observer/wifi">
+    <class abstract="false" deprecated="not deprecated" extends="android.net.wifi.rtt.RangingResultCallback" extends-generic-aware="android.net.wifi.rtt.RangingResultCallback" jni-extends="Landroid/net/wifi/rtt/RangingResultCallback;" final="false" name="WifiRangingResultCallback" static="false" visibility="public" jni-signature="Lnet/crowdconnected/androidcolocator/observer/wifi/WifiRangingResultCallback;">
+      <constructor deprecated="not deprecated" final="false" name="WifiRangingResultCallback" jni-signature="(Ljava/util/Map;Landroid/os/Handler;Landroid/content/Context;)V" bridge="false" static="false" type="net.crowdconnected.androidcolocator.observer.wifi.WifiRangingResultCallback" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.Map&lt;java.lang.String, android.net.wifi.ScanResult&gt;" jni-type="Ljava/util/Map&lt;Ljava/lang/String;Landroid/net/wifi/ScanResult;&gt;;"></parameter>
+        <parameter name="p1" type="android.os.Handler" jni-type="Landroid/os/Handler;"></parameter>
+        <parameter name="p2" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onRangingFailure" jni-signature="(I)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="int" jni-type="I"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onRangingResults" jni-signature="(Ljava/util/List;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;android.net.wifi.rtt.RangingResult&gt;" jni-type="Ljava/util/List&lt;Landroid/net/wifi/rtt/RangingResult;&gt;;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="applicationContext" jni-signature="Landroid/content/Context;" static="false" transient="false" type="android.content.Context" type-generic-aware="android.content.Context" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="handler" jni-signature="Landroid/os/Handler;" static="false" transient="false" type="android.os.Handler" type-generic-aware="android.os.Handler" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="scanResults" jni-signature="Ljava/util/Map;" static="false" transient="false" type="java.util.Map" type-generic-aware="java.util.Map&lt;java.lang.String, android.net.wifi.ScanResult&gt;" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+  <package name="net.crowdconnected.androidcolocator.service" jni-name="net/crowdconnected/androidcolocator/service">
+    <class abstract="false" deprecated="not deprecated" extends="android.app.Service" extends-generic-aware="android.app.Service" jni-extends="Landroid/app/Service;" final="false" name="CoLocatorService" static="false" visibility="public" jni-signature="Lnet/crowdconnected/androidcolocator/service/CoLocatorService;">
+      <constructor deprecated="not deprecated" final="false" name="CoLocatorService" jni-signature="()V" bridge="false" static="false" type="net.crowdconnected.androidcolocator.service.CoLocatorService" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="true" name="a" jni-signature="()V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Z)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="boolean" jni-type="Z"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(DDDJ)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="double" jni-type="D"></parameter>
+        <parameter name="p1" type="double" jni-type="D"></parameter>
+        <parameter name="p2" type="double" jni-type="D"></parameter>
+        <parameter name="p3" type="long" jni-type="J"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="a" jni-signature="(Ljava/lang/String;Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+        <parameter name="p1" type="java.lang.String" jni-type="Ljava/lang/String;"></parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="b" jni-signature="()Ljava/util/UUID;" bridge="false" native="false" return="java.util.UUID" jni-return="Ljava/util/UUID;" static="false" synchronized="false" synthetic="false" visibility="public"></method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onBind" jni-signature="(Landroid/content/Intent;)Landroid/os/IBinder;" bridge="false" native="false" return="android.os.IBinder" jni-return="Landroid/os/IBinder;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Intent" jni-type="Landroid/content/Intent;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Landroid/os/IBinder;" static="false" transient="false" type="android.os.IBinder" type-generic-aware="android.os.IBinder" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="false" name="b" jni-signature="La/a/a/a/f;" static="false" transient="false" type="a.a.a.a.f" type-generic-aware="a.a.a.a.f" visibility="public" volatile="false"></field>
+      <field deprecated="not deprecated" final="true" name="c" jni-signature="Landroid/content/BroadcastReceiver;" static="false" transient="false" type="android.content.BroadcastReceiver" type-generic-aware="android.content.BroadcastReceiver" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.content.BroadcastReceiver" extends-generic-aware="android.content.BroadcastReceiver" jni-extends="Landroid/content/BroadcastReceiver;" final="false" name="CoLocatorService.a" static="false" visibility="public" jni-signature="Lnet/crowdconnected/androidcolocator/service/CoLocatorService$a;">
+      <constructor deprecated="not deprecated" final="false" name="CoLocatorService.a" jni-signature="(Lnet/crowdconnected/androidcolocator/service/CoLocatorService;)V" bridge="false" static="false" type="net.crowdconnected.androidcolocator.service.CoLocatorService.a" synthetic="false" visibility="public"></constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onReceive" jni-signature="(Landroid/content/Context;Landroid/content/Intent;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="p0" type="android.content.Context" jni-type="Landroid/content/Context;"></parameter>
+        <parameter name="p1" type="android.content.Intent" jni-type="Landroid/content/Intent;"></parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Lnet/crowdconnected/androidcolocator/service/CoLocatorService;" static="false" transient="false" type="net.crowdconnected.androidcolocator.service.CoLocatorService" type-generic-aware="net.crowdconnected.androidcolocator.service.CoLocatorService" visibility="public" volatile="false"></field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.os.Binder" extends-generic-aware="android.os.Binder" jni-extends="Landroid/os/Binder;" final="false" name="CoLocatorService.b" static="false" visibility="public" jni-signature="Lnet/crowdconnected/androidcolocator/service/CoLocatorService$b;">
+      <constructor deprecated="not deprecated" final="false" name="CoLocatorService.b" jni-signature="(Lnet/crowdconnected/androidcolocator/service/CoLocatorService;)V" bridge="false" static="false" type="net.crowdconnected.androidcolocator.service.CoLocatorService.b" synthetic="false" visibility="public"></constructor>
+      <field deprecated="not deprecated" final="true" name="a" jni-signature="Lnet/crowdconnected/androidcolocator/service/CoLocatorService;" static="false" transient="false" type="net.crowdconnected.androidcolocator.service.CoLocatorService" type-generic-aware="net.crowdconnected.androidcolocator.service.CoLocatorService" visibility="public" volatile="false"></field>
+    </class>
+  </package>
+</api>

@@ -783,16 +783,6 @@
         "build": {
           "build/MonoAndroid90/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
-      },
-      "TrueTime.Binding/1.0.0": {
-        "type": "project",
-        "framework": "MonoAndroid,Version=v9.0",
-        "compile": {
-          "bin/placeholder/TrueTime.Binding.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TrueTime.Binding.dll": {}
-        }
       }
     },
     "MonoAndroid,Version=v9.0/win": {
@@ -1576,16 +1566,6 @@
         },
         "build": {
           "build/MonoAndroid90/Xamarin.GooglePlayServices.Tasks.targets": {}
-        }
-      },
-      "TrueTime.Binding/1.0.0": {
-        "type": "project",
-        "framework": "MonoAndroid,Version=v9.0",
-        "compile": {
-          "bin/placeholder/TrueTime.Binding.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TrueTime.Binding.dll": {}
         }
       }
     },
@@ -2371,16 +2351,6 @@
         "build": {
           "build/MonoAndroid90/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
-      },
-      "TrueTime.Binding/1.0.0": {
-        "type": "project",
-        "framework": "MonoAndroid,Version=v9.0",
-        "compile": {
-          "bin/placeholder/TrueTime.Binding.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TrueTime.Binding.dll": {}
-        }
       }
     },
     "MonoAndroid,Version=v9.0/win-x86": {
@@ -3165,16 +3135,6 @@
         "build": {
           "build/MonoAndroid90/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
-      },
-      "TrueTime.Binding/1.0.0": {
-        "type": "project",
-        "framework": "MonoAndroid,Version=v9.0",
-        "compile": {
-          "bin/placeholder/TrueTime.Binding.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TrueTime.Binding.dll": {}
-        }
       }
     }
   },
@@ -3909,18 +3869,12 @@
         "xamarin.googleplayservices.tasks.71.1601.0.nupkg.sha512",
         "xamarin.googleplayservices.tasks.nuspec"
       ]
-    },
-    "TrueTime.Binding/1.0.0": {
-      "type": "project",
-      "path": "../../TrueTime.Binding/TrueTime.Binding/TrueTime.Binding.csproj",
-      "msbuildProject": "../../TrueTime.Binding/TrueTime.Binding/TrueTime.Binding.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
       "AndroidAltBeaconLibrary_2_15 >= 2.15.0",
       "Square.OkIO >= 1.9.0",
-      "TrueTime.Binding >= 1.0.0",
       "Xamarin.Android.Support.v4 >= 28.0.0.3",
       "Xamarin.AndroidX.MultiDex >= 2.0.1",
       "Xamarin.GooglePlayServices.Auth >= 71.1600.0",
@@ -3951,11 +3905,7 @@
       },
       "frameworks": {
         "monoandroid90": {
-          "projectReferences": {
-            "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/TrueTime.Binding/TrueTime.Binding/TrueTime.Binding.csproj": {
-              "projectPath": "/Users/tcode/Desktop/CrowdConnected/Xamarin/Android/TrueTime.Binding/TrueTime.Binding/TrueTime.Binding.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },
